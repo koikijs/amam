@@ -2,11 +2,11 @@
 
 ## Pages
 
-### /
+### /:lang
 Display todays attendance in default.
 
-### /dates/2015-12-01
+### /:lang?dates=2015-12-01
 Display specified date attendance
 
-### /groups/uxd
+### /:lang?groups=uxd
 Display specified group attendance
