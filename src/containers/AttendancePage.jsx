@@ -70,6 +70,11 @@ const AttendancePage = props => console.log(props) ||
                   Development Group
                 </p>
               </div>
+              <div className="item-options">
+                <p className="item-options-date">
+                  2017/12/26
+                </p>
+              </div>
             </a>
           </section>
           <section className="item">
@@ -97,6 +102,11 @@ const AttendancePage = props => console.log(props) ||
                 </p>
                 <p className="department">
                   Development Group
+                </p>
+              </div>
+              <div className="item-options">
+                <p className="item-options-date">
+                  2017/12/26
                 </p>
               </div>
             </a>
@@ -334,6 +344,11 @@ const AttendancePage = props => console.log(props) ||
                 </p>
                 <p className="department">
                   Development Group
+                </p>
+              </div>
+              <div className="item-options">
+                <p className="item-options-time">
+                  12:00 ~
                 </p>
               </div>
             </a>
@@ -580,6 +595,14 @@ const AttendancePage = props => console.log(props) ||
                 </p>
                 <p className="department">
                   Development Group
+                </p>
+              </div>
+              <div className="item-options">
+                <p className="item-options-date">
+                  2017/12/26
+                </p>
+                <p className="item-options-time">
+                  09:00 ~ 17:30
                 </p>
               </div>
             </a>
