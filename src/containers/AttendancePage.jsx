@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { asyncConnect } from 'redux-connect';
+import AttendanceSection from './AttendanceSection';
 
 const AttendancePage = props => console.log(props) ||
 <div>
@@ -39,267 +40,14 @@ const AttendancePage = props => console.log(props) ||
             Paid leave off
           </p>
           <hr className="fancy-line" />
-          <section className="item option">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a
-              href="?name=TakahiroFujii&status=3&date=2016-06-07&from=09:00&to=10:15&mode=edit"
-              className="edit-info"
-            >
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
+
+          {props.attendances.map((attendance) => {
+            return (
+              <AttendanceSection attendance={attendance} />
+            );
+          })
+          }
+
           {/* <div class="btn">
             <a href="">+ ADD INFORMATION</a>
           </div> */}
@@ -308,243 +56,25 @@ const AttendancePage = props => console.log(props) ||
           <p className="title">Late</p>
           <hr className="fancy-line" />
           <div className="bar" />
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
+
+          {props.attendances.map((attendance) => {
+            return (
+              <AttendanceSection attendance={attendance} />
+            );
+          })
+          }
+
           <div className="balloon">
             Half-Day off
           </div>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
+
+          {props.attendances.map((attendance) => {
+            return (
+              <AttendanceSection attendance={attendance} />
+            );
+          })
+          }
+
           {/* <div class="btn">
             <a href="">+ ADD INFORMATION</a>
           </div> */}
@@ -554,89 +84,27 @@ const AttendancePage = props => console.log(props) ||
             Business Event
           </p>
           <hr className="fancy-line" />
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
+
+          {props.attendances.map((attendance) => {
+            return (
+              <AttendanceSection attendance={attendance} />
+            );
+          })
+          }
+
           <div className="rounded">
             <span className="reason">
               Overseas Conference
             </span>
           </div>
-          <section className="item">
-            <a href="">
-              <svg
-                id="waterMark"
-                className="waterMark"
-                data-name="waterMark"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 160 160"
-              >
-                <title>waterMark</title>
-                <circle cx="81.27" cy="51.72" r="47.37" />
-                <path
-                  d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
-                     17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
-                />
-              </svg>
-              <div className="name">
-                <p>
-                  Takahiro Fujii
-                </p>
-                <p className="department">
-                  Development Group
-                </p>
-              </div>
-            </a>
-          </section>
+
+          {props.attendances.map((attendance) => {
+            return (
+              <AttendanceSection attendance={attendance} />
+            );
+          })
+          }
+
           {/* <div class="btn">
             <a href="">+ ADD INFORMATION</a>
           </div> */}
@@ -824,6 +292,7 @@ const AttendancePage = props => console.log(props) ||
 </div>;
 
 AttendancePage.propTypes = {
+  attendances: PropTypes.object.isRequired
 };
 
 AttendancePage.contextTypes = {
@@ -834,7 +303,338 @@ AttendancePage.contextTypes = {
 
 const connected = connect(
   state => ({
-    ...state
+    attendances : [
+    {
+         "no_prior": 40,
+         "cd_team": 1,
+         "n_team": "MGR",
+         "n_staff": "hidego.kawainu",
+         "id_staff": "100003032",
+         "r_remarks": null,
+         "n_staff_ent": "hidego.kawainu",
+         "dt_att_ent": "2016-11-18T14:29:05.000Z",
+         "dt_att_upd": null,
+         "s_att": 43275,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "1",
+         "c_ldr_flg": "0",
+         "d_att": "2016-12-26",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 50,
+         "cd_team": 1,
+         "n_team": "MGR",
+         "n_staff": "ydog.catnaga",
+         "id_staff": "100002646",
+         "r_remarks": null,
+         "n_staff_ent": "ydog.catnaga",
+         "dt_att_ent": "2016-11-25T09:27:01.000Z",
+         "dt_att_upd": null,
+         "s_att": 43376,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "1",
+         "c_ldr_flg": "0",
+         "d_att": "2016-12-26",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 50,
+         "cd_team": 1,
+         "n_team": "MGR",
+         "n_staff": "ydog.catnaga",
+         "id_staff": "100002646",
+         "r_remarks": null,
+         "n_staff_ent": "ydog.catnaga",
+         "dt_att_ent": "2016-11-25T09:27:26.000Z",
+         "dt_att_upd": null,
+         "s_att": 43377,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "1",
+         "c_ldr_flg": "0",
+         "d_att": "2016-12-27",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 41,
+         "cd_team": 1,
+         "n_team": "MGR",
+         "n_staff": "min.aun",
+         "id_staff": "100001892",
+         "r_remarks": null,
+         "n_staff_ent": "min.aun",
+         "dt_att_ent": "2016-10-31T10:01:51.000Z",
+         "dt_att_upd": null,
+         "s_att": 42891,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 5,
+         "c_boss_flg": "0",
+         "c_ldr_flg": "0",
+         "d_att": "2016-12-28",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 50,
+         "cd_team": 1,
+         "n_team": "MGR",
+         "n_staff": "ydog.catnaga",
+         "id_staff": "100002646",
+         "r_remarks": null,
+         "n_staff_ent": "ydog.catnaga",
+         "dt_att_ent": "2016-11-25T09:27:54.000Z",
+         "dt_att_upd": null,
+         "s_att": 43378,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "1",
+         "c_ldr_flg": "0",
+         "d_att": "2016-12-28",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 90,
+         "cd_team": 3,
+         "n_team": "GOOD-Search",
+         "n_staff": "lab-shaoqiang.zhou",
+         "id_staff": "100606116",
+         "r_remarks": "中国",
+         "n_staff_ent": "lab-shaoqiang.zhou",
+         "dt_att_ent": "2016-08-25T10:01:19.000Z",
+         "dt_att_upd": null,
+         "s_att": 41761,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "0",
+         "c_ldr_flg": "1",
+         "d_att": "2016-12-26",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 90,
+         "cd_team": 3,
+         "n_team": "GOOD-Search",
+         "n_staff": "lab-shaoqiang.zhou",
+         "id_staff": "100606116",
+         "r_remarks": "中国",
+         "n_staff_ent": "lab-shaoqiang.zhou",
+         "dt_att_ent": "2016-08-25T10:01:44.000Z",
+         "dt_att_upd": null,
+         "s_att": 41762,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "0",
+         "c_ldr_flg": "1",
+         "d_att": "2016-12-27",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 90,
+         "cd_team": 3,
+         "n_team": "GOOD-Search",
+         "n_staff": "lab-shaoqiang.zhou",
+         "id_staff": "100606116",
+         "r_remarks": "中国",
+         "n_staff_ent": "lab-shaoqiang.zhou",
+         "dt_att_ent": "2016-08-25T10:02:13.000Z",
+         "dt_att_upd": null,
+         "s_att": 41763,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "0",
+         "c_ldr_flg": "1",
+         "d_att": "2016-12-28",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 70,
+         "cd_team": 11,
+         "n_team": "PDM",
+         "n_staff": "goniel.buckne",
+         "id_staff": "100011608",
+         "r_remarks": null,
+         "n_staff_ent": "goniel.buckne",
+         "dt_att_ent": "2016-11-09T09:24:39.000Z",
+         "dt_att_upd": null,
+         "s_att": 43062,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "0",
+         "c_ldr_flg": "0",
+         "d_att": "2016-12-26",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 70,
+         "cd_team": 11,
+         "n_team": "PDM",
+         "n_staff": "goniel.buckne",
+         "id_staff": "100011608",
+         "r_remarks": null,
+         "n_staff_ent": "goniel.buckne",
+         "dt_att_ent": "2016-11-09T09:24:58.000Z",
+         "dt_att_upd": null,
+         "s_att": 43063,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "0",
+         "c_ldr_flg": "0",
+         "d_att": "2016-12-27",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 70,
+         "cd_team": 11,
+         "n_team": "PDM",
+         "n_staff": "goniel.buckne",
+         "id_staff": "100011608",
+         "r_remarks": null,
+         "n_staff_ent": "goniel.buckne",
+         "dt_att_ent": "2016-11-09T09:25:22.000Z",
+         "dt_att_upd": null,
+         "s_att": 43064,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "0",
+         "c_ldr_flg": "0",
+         "d_att": "2016-12-28",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 70,
+         "cd_team": 20,
+         "n_team": "GET",
+         "n_staff": "yushou.tsuchihahe",
+         "id_staff": "100004211",
+         "r_remarks": null,
+         "n_staff_ent": "yushou.tsuchihahe",
+         "dt_att_ent": "2016-10-18T15:56:34.000Z",
+         "dt_att_upd": null,
+         "s_att": 42683,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "1",
+         "c_ldr_flg": "1",
+         "d_att": "2016-12-26",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 70,
+         "cd_team": 20,
+         "n_team": "GET",
+         "n_staff": "yushou.tsuchihahe",
+         "id_staff": "100004211",
+         "r_remarks": null,
+         "n_staff_ent": "yushou.tsuchihahe",
+         "dt_att_ent": "2016-10-18T15:56:52.000Z",
+         "dt_att_upd": null,
+         "s_att": 42684,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "1",
+         "c_ldr_flg": "1",
+         "d_att": "2016-12-27",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 99,
+         "cd_team": 20,
+         "n_team": "GET",
+         "n_staff": "lab-fnaga.fnaga",
+         "id_staff": "100610174",
+         "r_remarks": "健康診断",
+         "n_staff_ent": "lab-fnaga.fnaga",
+         "dt_att_ent": "2016-11-14T09:27:10.000Z",
+         "dt_att_upd": null,
+         "s_att": 43155,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 3,
+         "c_boss_flg": "0",
+         "c_ldr_flg": "1",
+         "d_att": "2016-12-27",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       },
+       {
+         "no_prior": 70,
+         "cd_team": 20,
+         "n_team": "GET",
+         "n_staff": "yushou.tsuchihahe",
+         "id_staff": "100004211",
+         "r_remarks": null,
+         "n_staff_ent": "yushou.tsuchihahe",
+         "dt_att_ent": "2016-10-18T15:57:10.000Z",
+         "dt_att_upd": null,
+         "s_att": 42685,
+         "cd_att_type": 5,
+         "cd_att_reasnaga": 6,
+         "c_boss_flg": "1",
+         "c_ldr_flg": "1",
+         "d_att": "2016-12-28",
+         "t_start": null,
+         "t_end": null,
+         "n_att_type": "",
+         "n_att_reasnaga": "",
+         "start_to_end": ""
+       }
+    ]
   }),
   () => ({})
 )(AttendancePage);
