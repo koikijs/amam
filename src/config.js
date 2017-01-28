@@ -54,6 +54,7 @@ module.exports = Object.assign({
         { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' },
         { rel: 'stylesheet', type: 'text/css', href: '/css/normalize.css' },
         { rel: 'stylesheet', type: 'text/css', href: '/css/style.css' },
+        { rel: 'stylesheet', type: 'text/css', href: '/css/button.css' },
       ]
     }
   }
