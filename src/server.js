@@ -27,6 +27,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(expressSession({ secret: 'keyboard cat', resave: true, saveUninitialized: true }));
 
+if (__DEVELOPMENT__) {
+  // eslint-disable-next-line
+  require('./mocker');
+}
+
 server({
   urls,
   reducers,
