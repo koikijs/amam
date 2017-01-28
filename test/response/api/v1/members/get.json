@@ -1,22 +1,36 @@
 {
-  "members": [
+  "items": [
     {
       "id": 100000957,
-      "role_id": 50,
-      "team_id": 8,
-      "CD_DEPT": "2",
-      "employment_type_id": 1,
+      "role": {
+        "id": 1234,
+        "href": "/roles/1234"
+      },
+      "team": {
+        "id": 8,
+        "href": "/teams/8"
+      },
+      "dept": {
+        "id": 2,
+        "href": "/depts/2"
+      },
+      "localtion": {
+        "id": 2,
+        "href": "/locations/2"
+      },
+      "employmentType": {
+        "id": 1,
+        "href": "/employmentTypes/1"
+      },
       "name": "廣水昭",
       "nickname": "ひろとしんき",
       "order": 50,
-      "joined_on": "2007-02-01",
+      "joinedOn": "2007-02-01",
       "remarks": null,
-      "long_account": "tohai.ioa",
+      "longAccount": "tohai.ioa",
       "extension": "18290",
-      "id_old": "1000957",
-      "is_deleted": "1",
-      "SEX": "M",
-      "location_id": 2
+      "deleted": "1",
+      "sex": "m"
     },
     {
       "id": 1000969,
