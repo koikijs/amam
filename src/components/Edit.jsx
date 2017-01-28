@@ -6,7 +6,15 @@ const styles = require('../css/edit.less');
 class AttendancePage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { secondsElapsed: 0 };
+    this.state = {
+      status: null,
+      name: null
+    };
+    this.changeItem = this.changeItem.bind(this);
+  }
+
+  changeItem(key, event) {
+    this.setState({ [key]: event.target.value });
   }
 
   render() {
