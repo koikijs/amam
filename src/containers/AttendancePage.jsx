@@ -1,7 +1,11 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { asyncConnect } from 'redux-connect';
+import { Datepicker, Chips } from 'koiki-ui';
+
 import Edit from '../components/Edit';
+
+import styles from '../css/attendance-page.less';
 
 const AttendancePage = props => console.log(props) ||
 <div>
@@ -14,23 +18,24 @@ const AttendancePage = props => console.log(props) ||
         />
       </div>
       <div className="add-button" />
-      <div className="gridmaster">
-        <form
-          id="search-area"
-          method="get"
-          action="index.html"
-        >
-          <input
-            type="text"
-            name="condition"
-            id="search-box"
-            placeholder="Please Input Team, Name, Date"
-          />
-        </form>
-        <span className="filter-conditon">2015/12/21</span>
-        <span className="filter-conditon">
-          Development Group
-        </span>
+      <div className={styles.queries}>
+        <Datepicker
+          placeholder="Select dates"
+          className={styles.datepicker}
+        />
+        <Chips
+          className={styles.chips}
+          suggests={[{
+            id: 1000000,
+            name: 'sideroad'
+          }]}
+          chips={[
+            {
+              id: 'frontend-group',
+              name: 'FrontEnd Group'
+            }
+          ]}
+        />
       </div>
       {/* /.gridmaster */}
       <div className="clear" />
@@ -671,8 +676,8 @@ const asynced = asyncConnect([{
   promise: ({ helpers: { fetcher } }) => {
     const promises = [];
     console.log(fetcher);
-    promises.push(fetcher.attendenceType.load());
-    promises.push(fetcher.attendenceReason.load());
+    promises.push(fetcher.attendanceType.load());
+    promises.push(fetcher.attendanceReason.load());
     return Promise.all(promises);
   }
 }])(connected);
