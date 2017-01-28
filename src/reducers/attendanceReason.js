@@ -1,7 +1,6 @@
-
-const LOAD_START = 'hobby/LOAD_START';
-const LOAD_SUCCESS = 'hobby/LOAD_SUCCESS';
-const LOAD_FAIL = 'hobby/LOAD_FAIL';
+const LOAD_START = 'attendanceReason/LOAD_START';
+const LOAD_SUCCESS = 'attendanceReason/LOAD_SUCCESS';
+const LOAD_FAIL = 'attendanceReason/LOAD_FAIL';
 
 const initialState = {
   items: [],

@@ -4,15 +4,14 @@ import config from './config';
 const base = normalize(`${config.api.host}:${config.api.port}`);
 
 export default {
-  person: {
+  attendanceType: {
     load: {
-      url: `${base}/apis/koiki/people`,
-      method: 'GET'
+      url: `${base}/attendanceTypes`
     }
   },
-  hobby: {
+  attendanceReason: {
     load: {
-      url: `${base}/apis/koiki/hobbies`
+      url: `${base}/attendanceReasons`
     }
   }
 };

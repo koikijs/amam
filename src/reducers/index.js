@@ -1,7 +1,5 @@
-import person from './person';
-import hobby from './hobby';
+import attendanceType from './attendanceType';
 
 export default {
-  person,
-  hobby
+  attendanceType
 };

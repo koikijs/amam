@@ -671,7 +671,8 @@ const asynced = asyncConnect([{
   promise: ({ helpers: { fetcher } }) => {
     const promises = [];
     console.log(fetcher);
-    // promises.push(fetcher.attendence.load());
+    promises.push(fetcher.attendenceType.load());
+    promises.push(fetcher.attendenceReason.load());
     return Promise.all(promises);
   }
 }])(connected);

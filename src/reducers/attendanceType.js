@@ -1,7 +1,6 @@
-
-const LOAD_START = 'person/LOAD_START';
-const LOAD_SUCCESS = 'person/LOAD_SUCCESS';
-const LOAD_FAIL = 'person/LOAD_FAIL';
+const LOAD_START = 'attendanceType/LOAD_START';
+const LOAD_SUCCESS = 'attendanceType/LOAD_SUCCESS';
+const LOAD_FAIL = 'attendanceType/LOAD_FAIL';
 
 const initialState = {
   items: [],

@@ -30,6 +30,7 @@ class AttendancePage extends React.Component {
   }
 
   render() {
+    console.log(this.props);
     return (
       <section id="entry-modal" className={`${styles.modal} ${styles.active}`}>
         <div className={styles.modal_inner}>
@@ -214,6 +215,8 @@ class AttendancePage extends React.Component {
 }
 
 AttendancePage.propTypes = {
+  attendenceType: PropTypes.array.isRequired,
+  attendenceReason: PropTypes.array.isRequired
 };
 
 AttendancePage.contextTypes = {
@@ -224,7 +227,8 @@ AttendancePage.contextTypes = {
 
 const connected = connect(
   state => ({
-    ...state
+    attendenceType: state.attendenceType.items,
+    attendenceReason: state.attendenceReason.items
   }),
   () => ({})
 )(AttendancePage);
