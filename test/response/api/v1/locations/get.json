@@ -1,0 +1,19 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Tokyo",
+      "office": "Tokyo Station"
+    },
+    {
+      "id": 2,
+      "name": "Beijing",
+      "office": "CDC"
+    },
+    {
+      "id": 3,
+      "name": "Hawaii",
+      "office": "Waikiki"
+    }
+  ]
+}
