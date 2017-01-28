@@ -7,14 +7,26 @@ class AttendancePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      status: null,
-      name: null
+      name: null,
+      date: null
     };
     this.changeItem = this.changeItem.bind(this);
+    this.submitForm = this.submitForm.bind(this);
+    this.fetchMembers = this.fetchMembers.bind(this);
   }
 
   changeItem(key, event) {
     this.setState({ [key]: event.target.value });
+  }
+
+  fetchMembers() {
+    const fetcher = this.context.fetcher;
+    console.log(fetcher);
+  }
+
+  submitForm() {
+    const state = this.state;
+    console.log(JSON.stringify(state));
   }
 
   render() {
@@ -125,6 +137,7 @@ class AttendancePage extends React.Component {
                       id="input-name"
                       name="name"
                       placeholder="target name"
+                      onChange={this.fetchMembers}
                     />
                   </td>
                   {/* /.input-name */}
@@ -138,6 +151,7 @@ class AttendancePage extends React.Component {
                       name="date"
                       autoComplete="on"
                       required
+                      onChange={event => this.changeItem('date', event)}
                     />
                   </td>
                   {/* /.date */}
@@ -152,6 +166,7 @@ class AttendancePage extends React.Component {
                       autoComplete="on"
                       defaultValue="09:00"
                       required
+                      onChange={event => this.changeItem('startTime', event)}
                     />
                     <span className="seperator">-</span>
                     <input
@@ -161,6 +176,7 @@ class AttendancePage extends React.Component {
                       autoComplete="on"
                       defaultValue="09:15"
                       required
+                      onChange={event => this.changeItem('endTime', event)}
                     />
                   </td>
                   {/* /.time */}
@@ -180,8 +196,8 @@ class AttendancePage extends React.Component {
             <div className="submitbutton">
               <input
                 id="input-send"
-                type="submit"
                 defaultValue="SEND"
+                onClick={this.submitForm}
               />
             </div>
             {/* /.submitbutton */}
