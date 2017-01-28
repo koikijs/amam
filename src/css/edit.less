@@ -1,0 +1,96 @@
+.modal {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 2.0rem;
+  -webkit-transition: opacity .4s linear;
+  transition: opacity .4s linear;
+  -webkit-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+  z-index: 100;
+
+  h2 {
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    font-family: 'Lobster', cursive;
+  }
+
+  &.active {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .circle {
+    position: absolute;
+    background-color: rgba(255, 0, 0, .7);
+    height: 50px;
+    width: 100px;
+    top: -20px;
+    left: -10px;
+    border-radius:100px 100px 0 0;
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 104%;
+    background-color: rgba(0, 0, 0, .20);
+    z-index: 1;
+
+    span {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(255, 255, 255, .2);
+      cursor: pointer;
+      text-indent: -9999px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 4px;
+        border: 1px solid #fff;
+        height: 30px;
+        right: 19px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      &:before {
+        left: 19px;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+.modal_inner {
+  position: relative;
+  margin: 40px 5% 2%;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 10;
+}
+
