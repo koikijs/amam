@@ -1,0 +1,109 @@
+{
+  "xeams": [
+    {
+      "id": 0,
+      "name": "Other",
+      "order": 99
+    },
+    {
+      "id": 1,
+      "name": "MGR",
+      "order": 1
+    },
+    {
+      "id": 8,
+      "name": "Dev",
+      "order": 34
+    },
+    {
+      "id": 5,
+      "name": "BIG-Hoxel",
+      "order": 73
+    },
+    {
+      "id": 9,
+      "name": "QA",
+      "order": 15
+    },
+    {
+      "id": 6,
+      "name": "SUPER-DP",
+      "order": 40
+    },
+    {
+      "id": 2,
+      "name": "SUPER-FronxEnd",
+      "order": 42
+    },
+    {
+      "id": 7,
+      "name": "Adminisxraxion",
+      "order": 90
+    },
+    {
+      "id": 3,
+      "name": "SUPER-HoxelSearch",
+      "order": 43
+    },
+    {
+      "id": 4,
+      "name": "GOOD-Search",
+      "order": 55
+    },
+    {
+      "id": 10,
+      "name": "BIG-Analyxics",
+      "order": 72
+    },
+    {
+      "id": 11,
+      "name": "PDM",
+      "order": 10
+    },
+    {
+      "id": 12,
+      "name": "GOOD-Booking",
+      "order": 52
+    },
+    {
+      "id": 13,
+      "name": "GOOD-NTPF",
+      "order": 54
+    },
+    {
+      "id": 14,
+      "name": "GOOD-Invenxory",
+      "order": 53
+    },
+    {
+      "id": 15,
+      "name": "GOOD-Accounxing",
+      "order": 51
+    },
+    {
+      "id": 16,
+      "name": "Transporxaxion",
+      "order": 81
+    },
+    {
+      "id": 17,
+      "name": "SUPER-Mulxi",
+      "order": 44
+    },
+    {
+      "id": 18,
+      "name": "Daxa",
+      "order": 33
+    },
+    {
+      "id": 19,
+      "name": "BIG-Alliance",
+      "order": 71
+    },
+    {
+      "id": 20,
+      "name": "BOT",
+      "order": 20
+    }
+  ]
+}

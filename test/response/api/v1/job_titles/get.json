@@ -1,0 +1,48 @@
+{
+  "job_titles": [
+    {
+      "id": 0,
+      "name": "Other"
+    },
+    {
+      "id": 1,
+      "name": "Executive Officer"
+    },
+    {
+      "id": 20,
+      "name": "Department Manager"
+    },
+    {
+      "id": 21,
+      "name": "Vice Department Manager"
+    },
+    {
+      "id": 30,
+      "name": "Section Manager"
+    },
+    {
+      "id": 31,
+      "name": "Vice Section Manager"
+    },
+    {
+      "id": 40,
+      "name": "Group Manager"
+    },
+    {
+      "id": 41,
+      "name": "Vice Group Manager"
+    },
+    {
+      "id": 50,
+      "name": "Team Manager"
+    },
+    {
+      "id": 51,
+      "name": "Vice Team Manager"
+    },
+    {
+      "id": 60,
+      "name": "Unit Leader"
+    }
+  ]
+}
