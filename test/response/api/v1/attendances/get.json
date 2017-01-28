@@ -14,13 +14,9 @@
         "id": 5,
         "href": "/attendanceTypes/5"
       },
-      "reason": {
-        "id": 6,
-        "href": "/reasons/6"
-      },
       "attendanceReason": {
-        "id": 1,
-        "href": "/attendances/1"
+        "id": 6,
+        "href": "/attendanceReason/6"
       },
       "remarks": null,
       "createdAt": "2016-11-18T14:29:05.000Z",
