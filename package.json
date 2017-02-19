@@ -29,7 +29,7 @@
       "command": "webpack --verbose --colors --display-error-details --config webpack/prod.config.js",
       "env": {
         "NODE_ENV": "production",
-        "GLOBAL_HOST": "amam.herokuapp.com",
+        "GLOBAL_HOST": "s1gure.herokuapp.com",
         "GLOBAL_PORT": 443
       }
     },
