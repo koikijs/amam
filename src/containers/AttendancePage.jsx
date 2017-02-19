@@ -2,9 +2,11 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { asyncConnect } from 'redux-connect';
 import { Datepicker, Chips } from 'koiki-ui';
+import FlagIconFactory from 'react-flag-icon-css';
 
 import styles from '../css/attendance-page.less';
 
+const FlagIcon = FlagIconFactory(React);
 const AttendancePage = props => console.log(props) ||
 <div>
   <div>
@@ -33,6 +35,58 @@ const AttendancePage = props => console.log(props) ||
             }
           ]}
         />
+      </div>
+      <div className="">
+        <table>
+          <thead>
+            <tr>
+              <th>Location</th>
+              <th>City</th>
+              <th>WaterMark</th>
+              <th>Name&Tags</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <FlagIcon code="jp" />
+              </td>
+              <td>Tokyo</td>
+              <td className="waterMark">
+                <svg id="waterMark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+                  <title>waterMark</title>
+                  <circle cx="81.27" cy="51.72" r="47.37" />
+                  <path
+                    d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
+                    17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
+                  />
+                </svg>
+              </td>
+              <td>
+                <p>Takahiro Fujii</p>
+                <p>Development Group</p>
+              </td>
+            </tr>
+            <tr>
+              <td><span className="flag-icon flag-icon-jp" /></td>
+              <td>Tokyo</td>
+              <td className="waterMark">
+                <svg id="waterMark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+                  <title>waterMark</title>
+                  <circle cx="81.27" cy="51.72" r="47.37" />
+                  <path
+                    d="M9.44,155H151.5c-1.29-23.18-9.23-46.35-35-60.94-24.89,
+                    17.17-48.5,16.31-71.25,0C21.67,105.21,11.8,131,9.44,155Z"
+                  />
+                </svg>
+              </td>
+              <td>
+                <p>Takahiro Fujii</p>
+                <p>Development Group</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
