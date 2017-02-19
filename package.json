@@ -1,13 +1,13 @@
 {
-  "name": "amam",
-  "title": "amam",
-  "description": "Attendence Management System",
+  "name": "sigure",
+  "title": "sigure",
+  "description": "Working Timeline Visualization System",
   "author": "koikijs",
   "license": "MIT",
   "version": "1.0.0",
   "repository": {},
   "keywords": [
-    "amam"
+    "sigure"
   ],
   "main": "bin/server.js",
   "scripts": {
