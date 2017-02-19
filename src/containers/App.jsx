@@ -7,7 +7,7 @@ import config from '../config';
 const App = props =>
   <div>
     {props.children}
-    <Helmet {...config.app.head} title="Attendence Management System" />
+    <Helmet {...config.app.head} title="Working Timeline Visualization System" />
   </div>;
 
 App.propTypes = {
