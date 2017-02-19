@@ -4,10 +4,10 @@ import { asyncConnect } from 'redux-connect';
 import { Datepicker, Chips } from 'koiki-ui';
 import FlagIconFactory from 'react-flag-icon-css';
 
-import styles from '../css/attendance-page.less';
+import styles from '../css/timeline-page.less';
 
 const FlagIcon = FlagIconFactory(React);
-const AttendancePage = props => console.log(props) ||
+const TimeLinePage = props => console.log(props) ||
 <div>
   <div>
     <div id="wrapper" className="wrapper">
@@ -36,24 +36,22 @@ const AttendancePage = props => console.log(props) ||
           ]}
         />
       </div>
-      <div className="">
+      <div>
         <table>
           <thead>
             <tr>
-              <th>Location</th>
-              <th>City</th>
-              <th>WaterMark</th>
-              <th>Name&Tags</th>
+              <th colSpan="2">Location</th>
+              <th colSpan="2" />
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr className="item">
               <td>
-                <FlagIcon code="jp" />
+                <FlagIcon code="jp" size="2x" />
               </td>
-              <td>Tokyo</td>
+              <td className="item-city">Tokyo</td>
               <td className="waterMark">
-                <svg id="waterMark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+                <svg id="waterMark" className="away" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
                   <title>waterMark</title>
                   <circle cx="81.27" cy="51.72" r="47.37" />
                   <path
@@ -63,15 +61,17 @@ const AttendancePage = props => console.log(props) ||
                 </svg>
               </td>
               <td>
-                <p>Takahiro Fujii</p>
-                <p>Development Group</p>
+                <p className="item-name">Nozomi Nabuchi</p>
+                <p className="item-tags">Tags,Tags,Tags</p>
               </td>
             </tr>
-            <tr>
-              <td><span className="flag-icon flag-icon-jp" /></td>
-              <td>Tokyo</td>
+            <tr className="item">
+              <td>
+                <FlagIcon code="cn" size="2x" />
+              </td>
+              <td className="item-city">Shanghai</td>
               <td className="waterMark">
-                <svg id="waterMark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+                <svg id="waterMark" className="available" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
                   <title>waterMark</title>
                   <circle cx="81.27" cy="51.72" r="47.37" />
                   <path
@@ -81,8 +81,8 @@ const AttendancePage = props => console.log(props) ||
                 </svg>
               </td>
               <td>
-                <p>Takahiro Fujii</p>
-                <p>Development Group</p>
+                <p className="item-name">Nanbun Chin</p>
+                <p className="item-tags">Tags,Tags,Tags</p>
               </td>
             </tr>
           </tbody>
@@ -92,10 +92,10 @@ const AttendancePage = props => console.log(props) ||
   </div>
 </div>;
 
-AttendancePage.propTypes = {
+TimeLinePage.propTypes = {
 };
 
-AttendancePage.contextTypes = {
+TimeLinePage.contextTypes = {
   lang: PropTypes.string.isRequired,
   fetcher: PropTypes.object.isRequired,
   i18n: PropTypes.object.isRequired
@@ -106,7 +106,7 @@ const connected = connect(
     ...state
   }),
   () => ({})
-)(AttendancePage);
+)(TimeLinePage);
 
 const asynced = asyncConnect([{
   promise: ({ helpers: { fetcher } }) => {

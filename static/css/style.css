@@ -29,3 +29,38 @@ body {
   width: 320px;
   margin: 0 auto;
 }
+
+td {
+  padding: 0 10px;
+}
+
+.item .item-name {
+  font-size: 2.0rem;
+  margin: 5px 0px;
+}
+
+.item .item-tags {
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.item .item-city {
+  padding-left: 0px;
+  text-align: left;
+}
+
+.waterMark {
+  padding: 5px 0px 5px 10px;
+}
+
+#waterMark {
+  width: 50px;
+}
+
+.away {
+  fill:#fabf14;
+}
+
+.available {
+  fill:#1b8000;
+}
