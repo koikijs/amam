@@ -11,10 +11,10 @@ const TimeLinePage = props => console.log(props) ||
 <div>
   <div>
     <div id="wrapper" className="wrapper">
-      <div className="logo">
+      <div className={styles.logo}>
         <img
           src="images/logo.png"
-          alt="Attendance mamnagement system"
+          alt="Working Timeline Visualization System"
         />
       </div>
       <div className={styles.queries}>
@@ -50,8 +50,8 @@ const TimeLinePage = props => console.log(props) ||
                 <FlagIcon code="jp" size="2x" />
               </td>
               <td className="item-city">Tokyo</td>
-              <td className="waterMark">
-                <svg id="waterMark" className="away" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+              <td>
+                <svg id="waterMark" className="waterMark away" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
                   <title>waterMark</title>
                   <circle cx="81.27" cy="51.72" r="47.37" />
                   <path
@@ -70,8 +70,8 @@ const TimeLinePage = props => console.log(props) ||
                 <FlagIcon code="cn" size="2x" />
               </td>
               <td className="item-city">Shanghai</td>
-              <td className="waterMark">
-                <svg id="waterMark" className="available" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+              <td>
+                <svg id="waterMark" className="waterMark available" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
                   <title>waterMark</title>
                   <circle cx="81.27" cy="51.72" r="47.37" />
                   <path
