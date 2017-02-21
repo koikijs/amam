@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@yellow: #ecd032;
+@green: #8bc44f;
+
 html {
   background-color: #E4E4E5;
   width: 100%;
@@ -31,16 +34,32 @@ td {
   padding: 0 10px;
 }
 
-.item .item-name {
-  font-size: 2.0rem;
-  margin: 5px 0px;
+.waterMark {
+  padding: 5px 0px 5px 10px;
 }
 
-.item .item-tags {
-  font-size: 1.2rem;
-  margin: 0 auto;
+#waterMark {
+  width: 50px;
 }
 
-.item .item-city {
-  padding-left: 0px;
+.away {
+  fill:@yellow;
+}
+
+.available {
+  fill:@green;
+}
+
+.item {
+  .item-name {
+    font-size: 2.0rem;
+    margin: 5px 0px;
+  }
+  .item-tags {
+    font-size: 1.2rem;
+    margin: 0 auto;
+  }
+  .item-city {
+    padding-left: 0px;
+  }
 }
