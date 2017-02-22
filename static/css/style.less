@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@yellow: #ecd032;
+@green: #8bc44f;
+
 html {
   background-color: #E4E4E5;
   width: 100%;
@@ -19,10 +22,33 @@ body {
   font-family: 'FontAwesome', sans-serif;
 }
 
-.logo {
-  margin: 20px 0px;
-  img {
-    width: 320px;
+td {
+  padding: 0 10px;
+}
+
+.waterMark {
+  width: 50px;
+  padding: 15px 0px 5px 10px;
+}
+
+.away {
+  fill:@yellow;
+}
+
+.available {
+  fill:@green;
+}
+
+.item {
+  .item-name {
+    font-size: 2.0rem;
+    margin: 5px 0px;
+  }
+  .item-tags {
+    font-size: 1.2rem;
     margin: 0 auto;
+  }
+  .item-city {
+    padding-left: 0px;
   }
 }
