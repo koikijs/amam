@@ -1,337 +1,504 @@
 {
   "items": [
     {
-      "id": 43275,
+      "id": 41761,
       "team": {
-        "id": 1,
-        "href": "/teams/1"
+        "id": 3,
+        "href": "http://amam.sample.com/api/v1/teams/3"
       },
       "member": {
-        "id": 1,
-        "href": "members/1"
+        "id": "100606116",
+        "href": "http://amam.sample.com/api/v1/members/100606116"
       },
       "attendanceType": {
         "id": 5,
-        "href": "/attendanceTypes/5"
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
       },
       "attendanceReason": {
         "id": 6,
-        "href": "/attendanceReason/6"
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
       },
-      "remarks": null,
-      "createdAt": "2016-11-18T14:29:05.000Z",
+      "remarks": "中国",
+      "createdAt": "2016-08-25T19:01:19.000+09:00",
       "updatedAt": null,
-      "attendanceAt": "2016-12-26",
+      "date": "2016-12-26",
       "startTime": null,
       "endTime": null
     },
     {
-      "no_prior": 50,
-      "cd_team": 1,
-      "n_team": "MGR",
-      "n_staff": "ydog.catnaga",
-      "id_staff": "100002646",
-      "r_remarks": null,
-      "n_staff_ent": "ydog.catnaga",
-      "dt_att_ent": "2016-11-25T09:27:01.000Z",
-      "dt_att_upd": null,
-      "s_att": 43376,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "1",
-      "c_ldr_flg": "0",
-      "d_att": "2016-12-26",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 42683,
+      "team": {
+        "id": 20,
+        "href": "http://amam.sample.com/api/v1/teams/20"
+      },
+      "member": {
+        "id": "100004211",
+        "href": "http://amam.sample.com/api/v1/members/100004211"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-10-19T00:56:34.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-26",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 50,
-      "cd_team": 1,
-      "n_team": "MGR",
-      "n_staff": "ydog.catnaga",
-      "id_staff": "100002646",
-      "r_remarks": null,
-      "n_staff_ent": "ydog.catnaga",
-      "dt_att_ent": "2016-11-25T09:27:26.000Z",
-      "dt_att_upd": null,
-      "s_att": 43377,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "1",
-      "c_ldr_flg": "0",
-      "d_att": "2016-12-27",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 43062,
+      "team": {
+        "id": 11,
+        "href": "http://amam.sample.com/api/v1/teams/11"
+      },
+      "member": {
+        "id": "100011608",
+        "href": "http://amam.sample.com/api/v1/members/100011608"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-09T18:24:39.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-26",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 41,
-      "cd_team": 1,
-      "n_team": "MGR",
-      "n_staff": "min.aun",
-      "id_staff": "100001892",
-      "r_remarks": null,
-      "n_staff_ent": "min.aun",
-      "dt_att_ent": "2016-10-31T10:01:51.000Z",
-      "dt_att_upd": null,
-      "s_att": 42891,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 5,
-      "c_boss_flg": "0",
-      "c_ldr_flg": "0",
-      "d_att": "2016-12-28",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 43275,
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "member": {
+        "id": "100003032",
+        "href": "http://amam.sample.com/api/v1/members/100003032"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-18T23:29:05.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-26",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 50,
-      "cd_team": 1,
-      "n_team": "MGR",
-      "n_staff": "ydog.catnaga",
-      "id_staff": "100002646",
-      "r_remarks": null,
-      "n_staff_ent": "ydog.catnaga",
-      "dt_att_ent": "2016-11-25T09:27:54.000Z",
-      "dt_att_upd": null,
-      "s_att": 43378,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "1",
-      "c_ldr_flg": "0",
-      "d_att": "2016-12-28",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 43376,
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "member": {
+        "id": "100002646",
+        "href": "http://amam.sample.com/api/v1/members/100002646"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-25T18:27:01.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-26",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 90,
-      "cd_team": 3,
-      "n_team": "GOOD-Search",
-      "n_staff": "lab-shaoqiang.zhou",
-      "id_staff": "100606116",
-      "r_remarks": "中国",
-      "n_staff_ent": "lab-shaoqiang.zhou",
-      "dt_att_ent": "2016-08-25T10:01:19.000Z",
-      "dt_att_upd": null,
-      "s_att": 41761,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "0",
-      "c_ldr_flg": "1",
-      "d_att": "2016-12-26",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 41762,
+      "team": {
+        "id": 3,
+        "href": "http://amam.sample.com/api/v1/teams/3"
+      },
+      "member": {
+        "id": "100606116",
+        "href": "http://amam.sample.com/api/v1/members/100606116"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": "中国",
+      "createdAt": "2016-08-25T19:01:44.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-27",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 90,
-      "cd_team": 3,
-      "n_team": "GOOD-Search",
-      "n_staff": "lab-shaoqiang.zhou",
-      "id_staff": "100606116",
-      "r_remarks": "中国",
-      "n_staff_ent": "lab-shaoqiang.zhou",
-      "dt_att_ent": "2016-08-25T10:01:44.000Z",
-      "dt_att_upd": null,
-      "s_att": 41762,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "0",
-      "c_ldr_flg": "1",
-      "d_att": "2016-12-27",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 42684,
+      "team": {
+        "id": 20,
+        "href": "http://amam.sample.com/api/v1/teams/20"
+      },
+      "member": {
+        "id": "100004211",
+        "href": "http://amam.sample.com/api/v1/members/100004211"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-10-19T00:56:52.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-27",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 90,
-      "cd_team": 3,
-      "n_team": "GOOD-Search",
-      "n_staff": "lab-shaoqiang.zhou",
-      "id_staff": "100606116",
-      "r_remarks": "中国",
-      "n_staff_ent": "lab-shaoqiang.zhou",
-      "dt_att_ent": "2016-08-25T10:02:13.000Z",
-      "dt_att_upd": null,
-      "s_att": 41763,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "0",
-      "c_ldr_flg": "1",
-      "d_att": "2016-12-28",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 43063,
+      "team": {
+        "id": 11,
+        "href": "http://amam.sample.com/api/v1/teams/11"
+      },
+      "member": {
+        "id": "100011608",
+        "href": "http://amam.sample.com/api/v1/members/100011608"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-09T18:24:58.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-27",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 70,
-      "cd_team": 11,
-      "n_team": "PDM",
-      "n_staff": "goniel.buckne",
-      "id_staff": "100011608",
-      "r_remarks": null,
-      "n_staff_ent": "goniel.buckne",
-      "dt_att_ent": "2016-11-09T09:24:39.000Z",
-      "dt_att_upd": null,
-      "s_att": 43062,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "0",
-      "c_ldr_flg": "0",
-      "d_att": "2016-12-26",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 43155,
+      "team": {
+        "id": 20,
+        "href": "http://amam.sample.com/api/v1/teams/20"
+      },
+      "member": {
+        "id": "100610174",
+        "href": "http://amam.sample.com/api/v1/members/100610174"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 3,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/3"
+      },
+      "remarks": "健康診断",
+      "createdAt": "2016-11-14T18:27:10.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-27",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 70,
-      "cd_team": 11,
-      "n_team": "PDM",
-      "n_staff": "goniel.buckne",
-      "id_staff": "100011608",
-      "r_remarks": null,
-      "n_staff_ent": "goniel.buckne",
-      "dt_att_ent": "2016-11-09T09:24:58.000Z",
-      "dt_att_upd": null,
-      "s_att": 43063,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "0",
-      "c_ldr_flg": "0",
-      "d_att": "2016-12-27",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 43377,
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "member": {
+        "id": "100002646",
+        "href": "http://amam.sample.com/api/v1/members/100002646"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-25T18:27:26.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-27",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 70,
-      "cd_team": 11,
-      "n_team": "PDM",
-      "n_staff": "goniel.buckne",
-      "id_staff": "100011608",
-      "r_remarks": null,
-      "n_staff_ent": "goniel.buckne",
-      "dt_att_ent": "2016-11-09T09:25:22.000Z",
-      "dt_att_upd": null,
-      "s_att": 43064,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "0",
-      "c_ldr_flg": "0",
-      "d_att": "2016-12-28",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 41763,
+      "team": {
+        "id": 3,
+        "href": "http://amam.sample.com/api/v1/teams/3"
+      },
+      "member": {
+        "id": "100606116",
+        "href": "http://amam.sample.com/api/v1/members/100606116"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": "中国",
+      "createdAt": "2016-08-25T19:02:13.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-28",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 70,
-      "cd_team": 20,
-      "n_team": "GET",
-      "n_staff": "yushou.tsuchihahe",
-      "id_staff": "100004211",
-      "r_remarks": null,
-      "n_staff_ent": "yushou.tsuchihahe",
-      "dt_att_ent": "2016-10-18T15:56:34.000Z",
-      "dt_att_upd": null,
-      "s_att": 42683,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "1",
-      "c_ldr_flg": "1",
-      "d_att": "2016-12-26",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 42685,
+      "team": {
+        "id": 20,
+        "href": "http://amam.sample.com/api/v1/teams/20"
+      },
+      "member": {
+        "id": "100004211",
+        "href": "http://amam.sample.com/api/v1/members/100004211"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-10-19T00:57:10.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-28",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 70,
-      "cd_team": 20,
-      "n_team": "GET",
-      "n_staff": "yushou.tsuchihahe",
-      "id_staff": "100004211",
-      "r_remarks": null,
-      "n_staff_ent": "yushou.tsuchihahe",
-      "dt_att_ent": "2016-10-18T15:56:52.000Z",
-      "dt_att_upd": null,
-      "s_att": 42684,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "1",
-      "c_ldr_flg": "1",
-      "d_att": "2016-12-27",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 42891,
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "member": {
+        "id": "100001892",
+        "href": "http://amam.sample.com/api/v1/members/100001892"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/5"
+      },
+      "remarks": null,
+      "createdAt": "2016-10-31T19:01:51.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-28",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 99,
-      "cd_team": 20,
-      "n_team": "GET",
-      "n_staff": "lab-fnaga.fnaga",
-      "id_staff": "100610174",
-      "r_remarks": "健康診断",
-      "n_staff_ent": "lab-fnaga.fnaga",
-      "dt_att_ent": "2016-11-14T09:27:10.000Z",
-      "dt_att_upd": null,
-      "s_att": 43155,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 3,
-      "c_boss_flg": "0",
-      "c_ldr_flg": "1",
-      "d_att": "2016-12-27",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 43064,
+      "team": {
+        "id": 11,
+        "href": "http://amam.sample.com/api/v1/teams/11"
+      },
+      "member": {
+        "id": "100011608",
+        "href": "http://amam.sample.com/api/v1/members/100011608"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-09T18:25:22.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-28",
+      "startTime": null,
+      "endTime": null
     },
     {
-      "no_prior": 70,
-      "cd_team": 20,
-      "n_team": "GET",
-      "n_staff": "yushou.tsuchihahe",
-      "id_staff": "100004211",
-      "r_remarks": null,
-      "n_staff_ent": "yushou.tsuchihahe",
-      "dt_att_ent": "2016-10-18T15:57:10.000Z",
-      "dt_att_upd": null,
-      "s_att": 42685,
-      "cd_att_type": 5,
-      "cd_att_reasnaga": 6,
-      "c_boss_flg": "1",
-      "c_ldr_flg": "1",
-      "d_att": "2016-12-28",
-      "t_start": null,
-      "t_end": null,
-      "n_att_type": "",
-      "n_att_reasnaga": "",
-      "start_to_end": ""
+      "id": 43378,
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "member": {
+        "id": "100002646",
+        "href": "http://amam.sample.com/api/v1/members/100002646"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-25T18:27:54.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-28",
+      "startTime": null,
+      "endTime": null
+    },
+    {
+      "id": 41764,
+      "team": {
+        "id": 3,
+        "href": "http://amam.sample.com/api/v1/teams/3"
+      },
+      "member": {
+        "id": "100606116",
+        "href": "http://amam.sample.com/api/v1/members/100606116"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": "中国",
+      "createdAt": "2016-08-25T19:03:22.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-29",
+      "startTime": null,
+      "endTime": null
+    },
+    {
+      "id": 42686,
+      "team": {
+        "id": 20,
+        "href": "http://amam.sample.com/api/v1/teams/20"
+      },
+      "member": {
+        "id": "100004211",
+        "href": "http://amam.sample.com/api/v1/members/100004211"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-10-19T00:59:17.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-29",
+      "startTime": null,
+      "endTime": null
+    },
+    {
+      "id": 42892,
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "member": {
+        "id": "100001892",
+        "href": "http://amam.sample.com/api/v1/members/100001892"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/5"
+      },
+      "remarks": null,
+      "createdAt": "2016-10-31T19:02:13.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-29",
+      "startTime": null,
+      "endTime": null
+    },
+    {
+      "id": 43065,
+      "team": {
+        "id": 11,
+        "href": "http://amam.sample.com/api/v1/teams/11"
+      },
+      "member": {
+        "id": "100011608",
+        "href": "http://amam.sample.com/api/v1/members/100011608"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-09T18:25:45.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-29",
+      "startTime": null,
+      "endTime": null
+    },
+    {
+      "id": 43379,
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "member": {
+        "id": "100002646",
+        "href": "http://amam.sample.com/api/v1/members/100002646"
+      },
+      "attendanceType": {
+        "id": 5,
+        "href": "http://amam.sample.com/api/v1/attendance_types/5"
+      },
+      "attendanceReason": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/attendance_reasons/6"
+      },
+      "remarks": null,
+      "createdAt": "2016-11-25T18:28:21.000+09:00",
+      "updatedAt": null,
+      "date": "2016-12-29",
+      "startTime": null,
+      "endTime": null
     }
   ]
 }

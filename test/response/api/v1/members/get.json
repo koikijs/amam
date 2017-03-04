@@ -4,87 +4,117 @@
       "id": 100000957,
       "role": {
         "id": 1234,
-        "href": "/roles/1234"
+        "href": "http://amam.sample.com/api/v1/roles/1234"
       },
       "team": {
         "id": 8,
-        "href": "/teams/8"
+        "href": "http://amam.sample.com/api/v1/teams/8"
       },
       "dept": {
         "id": 2,
-        "href": "/depts/2"
+        "href": "http://amam.sample.com/api/v1/depts/2"
       },
       "localtion": {
         "id": 2,
-        "href": "/locations/2"
+        "href": "http://amam.sample.com/api/v1/locations/2"
       },
       "employmentType": {
         "id": 1,
-        "href": "/employmentTypes/1"
+        "href": "http://amam.sample.com/api/v1/employment_types/1"
       },
       "name": "廣水昭",
       "nickname": "ひろとしんき",
-      "order": 50,
       "joinedOn": "2007-02-01",
       "remarks": null,
       "longAccount": "tohai.ioa",
       "extension": "18290",
-      "deleted": "1",
-      "sex": "m"
     },
     {
       "id": 1000969,
-      "role_id": 0,
-      "team_id": 6,
-      "CD_DEPT": "2",
-      "employment_type_id": 1,
+      "role": {
+        "id": 0,
+        "href": "http://amam.sample.com/api/v1/roles/0"
+      },
+      "team": {
+        "id": 6,
+        "href": "http://amam.sample.com/api/v1/teams/6"
+      },
+      "dept": {
+        "id": 2,
+        "href": "http://amam.sample.com/api/v1/depts/2"
+      },
+      "localtion": {
+        "id": 2,
+        "href": "http://amam.sample.com/api/v1/locations/2"
+      },
+      "employmentType": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/employment_types/1"
+      },
       "name": "井淳",
       "nickname": "くわくんつし",
-      "order": 1,
-      "joined_on": null,
+      "joinedOn": null,
       "remarks": null,
-      "long_account": "sushi.iai",
+      "longAccount": "sushi.iai",
       "extension": "22618",
-      "id_old": "1000969",
-      "is_deleted": "1",
-      "SEX": "M",
-      "location_id": 1
     },
     {
       "id": 100000977,
-      "role_id": 30,
-      "team_id": 1,
-      "CD_DEPT": "1",
-      "employment_type_id": 1,
+      "role": {
+        "id": 30,
+        "href": "http://amam.sample.com/api/v1/roles/30"
+      },
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "dept": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/depts/1"
+      },
+      "localtion": {
+        "id": 2,
+        "href": "http://amam.sample.com/api/v1/locations/2"
+      },
+      "employmentType": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/employment_types/1"
+      },
       "name": "旗康博",
       "nickname": "はすひろ",
-      "order": 30,
-      "joined_on": null,
+      "joinedOn": null,
       "remarks": "",
-      "long_account": "ysiro.oioto",
+      "longAccount": "ysiro.oioto",
       "extension": "22614",
-      "id_old": "1000977",
-      "is_deleted": "0",
-      "SEX": "M",
-      "location_id": 1
     },
     {
       "id": 100000978,
-      "role_id": 40,
-      "team_id": 1,
-      "CD_DEPT": "1",
-      "employment_type_id": 1,
+      "role": {
+        "id": 40,
+        "href": "http://amam.sample.com/api/v1/roles/40"
+      },
+      "team": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/teams/1"
+      },
+      "dept": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/depts/1"
+      },
+      "localtion": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/locations/1"
+      },
+      "employmentType": {
+        "id": 1,
+        "href": "http://amam.sample.com/api/v1/employment_types/1"
+      },
       "name": "佐藤台",
       "nickname": "さとぼだい",
-      "order": 40,
-      "joined_on": null,
+      "joinedOn": null,
       "remarks": null,
-      "long_account": "munika.to",
+      "longAccount": "munika.to",
       "extension": "22615",
-      "id_old": "1000978",
-      "is_deleted": "0",
-      "SEX": "M",
-      "location_id": 1
     }
   ]
 }
