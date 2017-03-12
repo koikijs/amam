@@ -1,8 +1,8 @@
 require('babel-polyfill');
 const normalize = require('koiki').normalize;
 
-const title = 'amam';
-const description = 'Attendence Management System';
+const title = 'sigure';
+const description = 'Working Timeline Visualization System';
 
 const environment = {
   development: {

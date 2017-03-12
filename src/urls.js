@@ -5,8 +5,8 @@ const base = normalize(`${config.api.host}:${config.api.port}`);
 
 export default {
   person: {
-    load: {
-      url: `${base}/apis/koiki/people`,
+    gets: {
+      url: `${base}/persons`,
       method: 'GET'
     }
   },
