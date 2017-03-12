@@ -8,6 +8,16 @@ export default {
     gets: {
       url: `${base}/persons`,
       method: 'GET'
+    },
+  },
+  tag: {
+    gets: {
+      url: `${base}/tags`,
+      method: 'GET'
+    },
+    search: {
+      url: `${base}/tags`,
+      method: 'GET'
     }
   },
   hobby: {

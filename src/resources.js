@@ -1,5 +1,33 @@
 export default {
-  '.*/persons': {
+  '.*/tags\\?q=': {
+    GET: {
+      response: {
+        items: [
+          {
+            id: 'couse',
+            name: 'ふがふが'
+          },
+        ]
+      }
+    }
+  },
+  '.*/tags\\?id=': {
+    GET: {
+      response: {
+        items: [
+          {
+            id: 'aoiuoiu',
+            name: '遅刻常習犯'
+          },
+          {
+            id: 'e203848379408',
+            name: 'Managers'
+          }
+        ]
+      }
+    }
+  },
+  '.*/persons.*': {
     GET: {
       response: {
         items: [
