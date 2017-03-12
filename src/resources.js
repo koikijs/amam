@@ -13,7 +13,11 @@ export default {
               {
                 id: '988a7c21-e29b-41d4-a716-446655440000',
                 name: 'Package Team'
-              }
+              },
+              {
+                id: '784nduas-e29b-fdsa-dfas-4fdksajfd000',
+                name: 'FrontEnd Group'
+              },
             ]
           },
           {
