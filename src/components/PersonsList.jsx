@@ -15,14 +15,14 @@ const PersonsList = props =>
       </thead>
       <tbody>
         {
-          props.persons.map(person =>
-            <tr className={styles.person}>
+          props.items.map(person =>
+            <tr key={person.id} className={styles.person}>
               <td>
-                <FlagIcon code={person.country} size="2x" />
+                <FlagIcon code={person.countryCode} size="2x" />
               </td>
-              <td className="item-city">{person.city}</td>
+              <td className={styles.city}>{person.cityCode}</td>
               <td>
-                <svg id="waterMark" className="waterMark away" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+                <svg id="waterMark" className="waterMark available" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
                   <title>waterMark</title>
                   <circle cx="81.27" cy="51.72" r="47.37" />
                   <path
@@ -32,8 +32,8 @@ const PersonsList = props =>
                 </svg>
               </td>
               <td>
-                <p className="item-name">{person.name}</p>
-                <p className="item-tags">Tags,Tags,Tags</p>
+                <p className={styles.name}>{person.name}</p>
+                <p className={styles.tags}>Tags,Tags,Tags</p>
               </td>
             </tr>
           )
@@ -43,7 +43,7 @@ const PersonsList = props =>
   </div>;
 
 PersonsList.propTypes = {
-  persons: PropTypes.array.isRequired,
+  items: PropTypes.array.isRequired,
 };
 
 export default PersonsList;
