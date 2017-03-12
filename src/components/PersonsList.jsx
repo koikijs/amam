@@ -33,7 +33,11 @@ const PersonsList = props =>
               </td>
               <td>
                 <p className={styles.name}>{person.name}</p>
-                <p className={styles.tags}>Tags,Tags,Tags</p>
+                {
+                  person.tags.map(tag =>
+                    <p key={tag.id} className={styles.tags}>{tag.name}</p>
+                  )
+                }
               </td>
             </tr>
           )
