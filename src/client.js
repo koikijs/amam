@@ -9,6 +9,12 @@ import routes from './routes';
 import urls from './urls';
 import reducers from './reducers';
 
+
+if (__DEVELOPMENT__) {
+  // eslint-disable-next-line
+  require('./mocker');
+}
+
 client({
   urls,
   reducers,
